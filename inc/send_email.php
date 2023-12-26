@@ -3,9 +3,6 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'chanderparkash179@gmail.com';
 
-
-if($_POST) {
-
    $name = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
    $subject = trim(stripslashes($_POST['subject']));
@@ -63,7 +60,5 @@ if($_POST) {
 		echo $response;
 
 	} # end if - there was a validation error
-
-}
 
 ?>
